@@ -24,4 +24,4 @@ if [ -z "$NAME" ] || [ -z "$VERSION" ]; then
 fi
 
 echo "Running ${NAME}-${VERSION}.jar"
-java -jar target/"${NAME}-${VERSION}".jar
+java -jar target/"${NAME}-${VERSION}"
